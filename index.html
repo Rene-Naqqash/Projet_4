@@ -45,6 +45,39 @@
     <script src="./assets/scripts.js"></script>
   </head>
   <body>
+    <!-- Microdonnées pour le business locale -->
+    <div itemscope itemtype="http://schema.org/LocalBusiness">
+      <meta itemprop="name" content="Nina Carducci Photographe à Bordeaux" />
+      <meta
+        itemprop="description"
+        content="Photographe à Bordeaux - Nina Carducci"
+      />
+      <meta itemprop="url" content="https://rene-naqqash.github.io/Projet_4/" />
+      <div
+        itemprop="address"
+        itemscope
+        itemtype="http://schema.org/PostalAddress"
+      >
+        <meta itemprop="streetAddress" content="68 avenue Alsace-Lorraine" />
+        <meta itemprop="addressLocality" content="Bordeaux" />
+        <meta itemprop="postalCode" content="33200" />
+        <meta itemprop="addressCountry" content="FR" />
+      </div>
+      <meta itemprop="telephone" content="+33-5-56-67-78-89" />
+      <div
+        itemprop="openingHoursSpecification"
+        itemscope
+        itemtype="http://schema.org/OpeningHoursSpecification"
+      >
+        <meta itemprop="dayOfWeek" content="Monday" />
+        <meta itemprop="dayOfWeek" content="Tuesday" />
+        <meta itemprop="dayOfWeek" content="Wednesday" />
+        <meta itemprop="dayOfWeek" content="Thursday" />
+        <meta itemprop="dayOfWeek" content="Friday" />
+        <meta itemprop="opens" content="10:00" />
+        <meta itemprop="closes" content="19:00" />
+      </div>
+    </div>
     <header class="top-header">
       <h1 class="name"><a href="#">Nina Carducci</a></h1>
       <div class="nav">
