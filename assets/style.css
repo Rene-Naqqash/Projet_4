@@ -257,6 +257,14 @@ input[type='submit'] {
   padding: 0.5em 1em;
 }
 
+footer {
+  text-align: center;
+}
+
+footer p {
+  margin: 16px auto;
+}
+
 @media all and (max-width: 1180px) {
   .picture {
     flex: 2;
