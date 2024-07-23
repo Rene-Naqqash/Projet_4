@@ -143,9 +143,10 @@
 
       $(imagesCollection).each(function (i) {
         if ($(activeImage).attr('src') === $(this).attr('src')) {
-          index = i;
+          index = i - 1;
         }
       });
+      console.log(index);
       next =
         imagesCollection[index] ||
         imagesCollection[imagesCollection.length - 1];
@@ -178,9 +179,10 @@
 
       $(imagesCollection).each(function (i) {
         if ($(activeImage).attr('src') === $(this).attr('src')) {
-          index = i;
+          index = i + 1;
         }
       });
+      console.log(index);
       next = imagesCollection[index] || imagesCollection[0];
       $('.lightboxImage').attr('src', $(next).attr('src'));
     },
